@@ -1,0 +1,17 @@
+
+class NestedDoWhile {
+
+    public static void main(String[] args) {
+        int i = 1;
+        do {
+            i++;
+            int j = 1;
+            do {
+                System.out.print("* ");
+                j++;
+            } while (j <= 5);
+            System.out.println("");
+        } while (i <= 5);
+
+    }
+}
