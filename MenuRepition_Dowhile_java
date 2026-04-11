@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class MenuRepetitionUsingDoWhile {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int menu;
+
+        do {
+            System.out.println("Menu:");
+            System.out.println("1. Say Hello");
+            System.out.println("2. Exit");
+            System.out.print("Enter your choice: ");
+
+            menu = sc.nextInt();
+
+            if (menu == 1) {
+                System.out.println("Hello!");
+            }
+
+        } while (menu != 2);
+
+        System.out.println("Program exited.");
+    }
+}
