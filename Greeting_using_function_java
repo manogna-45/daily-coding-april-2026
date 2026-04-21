@@ -1,0 +1,10 @@
+class GreetFunction{
+    public static String greet(String name){
+        return name;
+    }
+    public static void main(String[] args) {
+        String message = greet(" Guten Morgen");
+        System.out.println("hello" + message);
+        
+    }
+}
